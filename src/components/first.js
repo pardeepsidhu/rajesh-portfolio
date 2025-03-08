@@ -22,14 +22,14 @@ export default function TimelineDemo({ theme }) {
               theme === "dark" ? "text-white/80" : "text-black/80"
             }`}>
               Rajesh Kumar took his first step toward his dream by writing his first
-              web series. Though it hasn't been released yet, the passion and fire 
+              web series. Though it hasn&apos;t been released yet, the passion and fire 
               in his heart kept him going.
             </p>
             <p className={`text-sm md:text-base font-normal mb-4 ${
               theme === "dark" ? "text-white/60" : "text-black/60"
             }`}>
-              "I know one day the world will watch my stories, and that day I'll
-              proudly say — I never gave up."  
+              &quot;I know one day the world will watch my stories, and that day I&apos;ll
+              proudly say — I never gave up.&quot;  
             </p>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function TimelineDemo({ theme }) {
             <p className={`text-sm md:text-base font-normal mb-4 ${
               theme === "dark" ? "text-white/60" : "text-black/60"
             }`}>
-              "I don't want to just tell stories, I want to make the audience feel them."
+              &quot;I don&apos;t want to just tell stories, I want to make the audience feel them.&quot;
             </p>
           </div>
         </div>
@@ -77,14 +77,14 @@ export default function TimelineDemo({ theme }) {
             <p className={`text-base md:text-lg font-normal mb-4 ${
               theme === "dark" ? "text-white/80" : "text-black/80"
             }`}>
-              Singing has always been a part of Rajesh's soul. Although he hasn't released
+              Singing has always been a part of Rajesh&apos;s soul. Although he hasn&apos;t released
               any official song yet, his voice has already touched the hearts of many
               during small gatherings and local events.
             </p>
             <p className={`text-sm md:text-base font-normal mb-4 ${
               theme === "dark" ? "text-white/60" : "text-black/60"
             }`}>
-              "One day, the world will not just listen to my songs; they'll feel my voice."
+              &quot;One day, the world will not just listen to my songs; they&apos;ll feel my voice.&quot;
             </p>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function TimelineDemo({ theme }) {
             <p className={`text-sm md:text-base font-normal mb-4 ${
               theme === "dark" ? "text-white/60" : "text-black/60"
             }`}>
-              "Writing lyrics isn't my skill; it's my heart speaking in the form of words."
+              &quot;Writing lyrics isn&apos;t my skill; it&apos;s my heart speaking in the form of words.&quot;
             </p>
           </div>
         </div>
@@ -132,14 +132,14 @@ export default function TimelineDemo({ theme }) {
             <p className={`text-base md:text-lg font-normal mb-4 ${
               theme === "dark" ? "text-white/80" : "text-black/80"
             }`}>
-              Rajesh Kumar's journey has just begun. His dream is to become a well-known
+              Rajesh Kumar&apos;s journey has just begun. His dream is to become a well-known
               artist, singer, writer, and director. Though nothing has been officially
               released yet, his determination never fades.
             </p>
             <p className={`text-sm md:text-base font-normal mb-4 ${
               theme === "dark" ? "text-white/60" : "text-black/60"
             }`}>
-              "I have no backup plan. I was born to create art, and I will make it happen one day."
+              &quot;I have no backup plan. I was born to create art, and I will make it happen one day.&quot;
             </p>
           </div>
         </div>
