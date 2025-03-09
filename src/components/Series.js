@@ -56,7 +56,7 @@ export default function Second({ theme }) {
             theme === "dark" ? "text-white" : "text-black"
           }`}
         >
-          Rajesh Kumar's Creative Journey
+          Rajesh Kumar&apos;s Creative Journey
         </h2>
         <p
           className={`text-lg mb-12 ${
