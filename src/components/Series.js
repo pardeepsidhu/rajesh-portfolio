@@ -30,7 +30,7 @@ export default function Second({ theme }) {
     },
     {
       quote:
-        "Storytelling has always been my passion, and working on Punjabi movies has allowed me to bring unspoken emotions to life.",
+        `Storytelling has always been my passion, and working on Punjabi movies has allowed me to bring unspoken emotions to life.`,
       name: "Rajesh Kumar",
       designation: "Writer &amp; Director - Multiple Punjabi Movies",
       src: "https://images.unsplash.com/photo-1636041293178-808a6762ab39?q=80&amp;w=3464&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
