@@ -3,6 +3,7 @@ import Image from "next/image";
 import First from "../components/first"
 import Second from "../components/second"
 import Third from "../components/third"
+import Series from "../components/Series"
 import { useState } from "react";
 
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Second  theme={theme}/>
       <Third theme={theme}/>
       <First  theme={theme}/>
+      <Series theme={theme}/>
     </div>
   );
 }

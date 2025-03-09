@@ -7,87 +7,60 @@ import Image from "next/image";
 export default function Second({ theme }) {
   return (
     <div
-      className={`w-full flex transition-colors duration-500 ${
+      className={`w-full flex justify-center items-center min-h-screen transition-colors duration-500 ${
         theme === "dark" ? "bg-black text-white" : "bg-gray-100 text-black"
       }`}
     >
-      <div className="relative w-full flex overflow-hidden">
-        {/* Background Gradient */}
-        <div
-          className="absolute inset-0 w-full h-full"
-          style={{
-            background: theme === "dark"
-              ? "black"
-              : "white",
-          }}
-        />
-
-        {/* Content */}
-        <div className="relative z-10 flex flex-row flex-wrap space-y-6">
-          {/* Heading */}
-          <div className="p-5 md:pl-20">
-            <motion.h1
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              className="text-4xl md:text-7xl font-bold tracking-tight bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 bg-clip-text text-transparent"
-              style={{
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-              }}
-            >
-              Rajesh Kumar
-            </motion.h1>
-
-            {/* Tagline */}
-            <motion.p
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3, duration: 0.8 }}
-              className="text-lg max-w-xl p-2"
-            >
-              &quot;I believe every story has a song, and every song has a soul. I aim
-              to transform emotions into timeless art.&quot;
-            </motion.p>
-
-            {/* Personal Information */}
-            <motion.div
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6, duration: 0.8 }}
-              className="text-lg space-y-2"
-            >
-              <p>
-                <strong>Profession:</strong> Lyrics, Writer, Director, Artist,
-                Singer
-              </p>
-              <p>
-                <strong>Hometown:</strong> Chandigarh, Mohali
-              </p>
-              <p>
-                <strong>Age:</strong> 20
-              </p>
-              <p>
-                <strong>Marital Status:</strong> Unmarried
-              </p>
-            </motion.div>
-          </div>
-
-          {/* Full-Sized Phone Image */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.7 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.5, duration: 0.8 }}
-            className="w-[310px] h-[310px] relative m-5 md:m-10 border-4 border-white shadow-xl"
+      <div className="max-w-6xl w-full flex flex-col md:flex-row items-center gap-10 px-6 md:px-20 py-10">
+        {/* Left Section - Personal Info */}
+        <div className="flex-1 space-y-6">
+          <motion.h1
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-4xl md:text-6xl font-bold leading-tight bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 bg-clip-text text-transparent"
           >
-            <Image
-              src="https://images.pexels.com/photos/30382759/pexels-photo-30382759/free-photo-of-minimalist-shell-shaped-dish-on-white-bedding.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-              alt="Rajesh Kumar"
-              fill
-              className="object-cover"
-            />
+            Rajesh Kumar
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.8 }}
+            className="text-lg max-w-xl"
+          >
+            "I believe every story has a song, and every song has a soul. I aim
+            to transform emotions into timeless art."
+          </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6, duration: 0.8 }}
+            className="text-lg space-y-2 bg-white/10 p-4 rounded-lg shadow-lg border border-white/20"
+          >
+            <p><strong>Profession:</strong> Lyrics, Writer, Director, Artist, Singer</p>
+            <p><strong>Hometown:</strong> Chandigarh, Mohali</p>
+            <p><strong>Age:</strong> 20</p>
+            <p><strong>Marital Status:</strong> Unmarried</p>
           </motion.div>
         </div>
+
+        {/* Right Section - Profile Image */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.5, duration: 0.8 }}
+          className="w-[280px] h-[280px] md:w-[350px] md:h-[350px] border-4 border-white shadow-2xl rounded-xl overflow-hidden"
+        >
+          <Image
+            src="https://images.pexels.com/photos/30382759/pexels-photo-30382759/free-photo-of-minimalist-shell-shaped-dish-on-white-bedding.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+            alt="Rajesh Kumar"
+            width={350}
+            height={350}
+            className="object-cover"
+          />
+        </motion.div>
       </div>
     </div>
   );
