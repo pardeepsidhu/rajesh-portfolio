@@ -9,23 +9,23 @@ export default function Second({ theme }) {
   const testimonials = [
     {
       quote:
-        "Directing 'Vidhwa' was an incredible journey that allowed me to explore the depth of human emotions and stories. It has shaped my perspective as a director.",
+        "Directing &apos;Vidhwa&apos; was an incredible journey that allowed me to explore the depth of human emotions and stories. It has shaped my perspective as a director.",
       name: "Rajesh Kumar",
-      designation: "Writer & Director of 'Vidhwa' - Hindi Web Series",
+      designation: "Writer & Director of &apos;Vidhwa&apos; - Hindi Web Series",
       src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
-        "Working on 'Ishq Adhoora' was a transformative experience. It taught me the power of storytelling and capturing raw emotions on screen.",
+        "Working on &apos;Ishq Adhoora&apos; was a transformative experience. It taught me the power of storytelling and capturing raw emotions on screen.",
       name: "Rajesh Kumar",
-      designation: "Director of 'Ishq Adhoora' - Punjabi Movie",
+      designation: "Director of &apos;Ishq Adhoora&apos; - Punjabi Movie",
       src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
-        "Collaborating on the song 'Mere Yaar' allowed me to blend my writing and direction skills, creating a powerful visual story for the audience.",
+        "Collaborating on the song &apos;Mere Yaar&apos; allowed me to blend my writing and direction skills, creating a powerful visual story for the audience.",
       name: "Rajesh Kumar",
-      designation: "Director & Writer of 'Mere Yaar' - Punjabi Song",
+      designation: "Director & Writer of &apos;Mere Yaar&apos; - Punjabi Song",
       src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
@@ -52,7 +52,7 @@ export default function Second({ theme }) {
     >
       <div className="max-w-6xl w-full text-center px-6 md:px-20 py-10">
         <h2 className={`text-3xl md:text-5xl font-bold mb-8 ${theme === "dark" ? "text-white" : "text-black"}`}>
-          Rajesh Kumar's Creative Journey
+          Rajesh Kumar&apos;s Creative Journey
         </h2>
         <p className={`text-lg mb-12 ${theme === "dark" ? "text-gray-400" : "text-gray-600"}`}>
           Explore the experiences, thoughts, and creative vision behind some of the most inspiring works in the industry.
