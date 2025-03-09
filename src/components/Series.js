@@ -12,35 +12,35 @@ export default function Second({ theme }) {
         "Directing &apos;Vidhwa&apos; was an incredible journey that allowed me to explore the depth of human emotions and stories. It has shaped my perspective as a director.",
       name: "Rajesh Kumar",
       designation: "Writer & Director of &apos;Vidhwa&apos; - Hindi Web Series",
-      src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
+      src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&amp;w=3560&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
         "Working on &apos;Ishq Adhoora&apos; was a transformative experience. It taught me the power of storytelling and capturing raw emotions on screen.",
       name: "Rajesh Kumar",
       designation: "Director of &apos;Ishq Adhoora&apos; - Punjabi Movie",
-      src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
+      src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&amp;w=3540&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
         "Collaborating on the song &apos;Mere Yaar&apos; allowed me to blend my writing and direction skills, creating a powerful visual story for the audience.",
       name: "Rajesh Kumar",
-      designation: "Director & Writer of &apos;Mere Yaar&apos; - Punjabi Song",
-      src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
+      designation: "Director &amp; Writer of &apos;Mere Yaar&apos; - Punjabi Song",
+      src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&amp;w=3540&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
         "Storytelling has always been my passion, and working on Punjabi movies has allowed me to bring unspoken emotions to life.",
       name: "Rajesh Kumar",
-      designation: "Writer & Director - Multiple Punjabi Movies",
-      src: "https://images.unsplash.com/photo-1636041293178-808a6762ab39?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
+      designation: "Writer &amp; Director - Multiple Punjabi Movies",
+      src: "https://images.unsplash.com/photo-1636041293178-808a6762ab39?q=80&amp;w=3464&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
         "Bringing stories to life through my direction has always been my driving force. Every project has taught me something new, and I am grateful for the journey.",
       name: "Rajesh Kumar",
-      designation: "Writer, Director & Artist",
-      src: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
+      designation: "Writer, Director &amp; Artist",
+      src: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&amp;w=2592&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnR8fHx8fGVufDB8fHx8fA%3D%3D",
     },
   ];
 
