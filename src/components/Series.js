@@ -23,7 +23,7 @@ export default function Second({ theme }) {
     },
     {
       quote:
-        "Collaborating on the song 'Mere Yaar' allowed me to blend my writing and direction skills, creating a powerful visual story for the audience.",
+        `Collaborating on the song 'Mere Yaar' allowed me to blend my writing and direction skills, creating a powerful visual story for the audience.`,
       name: "Rajesh Kumar",
       designation: "Director & Writer of 'Mere Yaar' - Punjabi Song",
       src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop",

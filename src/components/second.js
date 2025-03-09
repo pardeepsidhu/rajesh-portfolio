@@ -29,8 +29,8 @@ export default function Second({ theme }) {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-lg max-w-xl"
           >
-            "I believe every story has a song, and every song has a soul. I aim
-            to transform emotions into timeless art."
+            &quot;I believe every story has a song, and every song has a soul. I aim
+            to transform emotions into timeless art.&quot;
           </motion.p>
 
           <motion.div
